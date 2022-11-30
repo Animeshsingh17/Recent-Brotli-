@@ -10,7 +10,7 @@ try {
 
 module.exports = {
   // Fix for: https://github.com/recharts/recharts/issues/1463
-  Plugin:[
+  plugins:[
     new BrotliPlugin({
       asset:'[path].br',
       threshold:0,
